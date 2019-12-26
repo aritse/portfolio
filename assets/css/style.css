@@ -48,6 +48,32 @@ body {
   padding-left: 1rem;
 }
 
-.container-fluid {
+.container-fluid > div:nth-child(1) {
   border-bottom: 2px solid #cccccc;
+}
+
+#main-content {
+  background-image: url("../images/wall.png");
+}
+
+.container-fluid > div:nth-child(1) > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4aaaa5;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#content-col {
+  background-color: white;
+  position: relative;
+  top: 2rem;
+}
+
+p {
+  line-height: 2rem;
 }
