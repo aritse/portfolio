@@ -1,0 +1,53 @@
+body {
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #777777;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #777777;
+  font-weight: bold;
+}
+
+.nav-item .nav-link {
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbar-nav > a:nth-child(2) {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.container-fluid {
+  border-bottom: 2px solid #cccccc;
+}
