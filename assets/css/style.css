@@ -92,6 +92,7 @@ p {
 .my-footer.fixed-bottom > div {
   background-color: #666666;
   color: white;
+  border-top: 5px solid #4aaaa5;
   text-align: center;
   vertical-align: baseline;
 }
