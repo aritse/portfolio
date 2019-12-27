@@ -4,7 +4,6 @@ body {
 }
 
 .navbar-brand {
-  background-color: #4aaaa5;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2rem;
   padding: 0 2rem;
@@ -12,7 +11,6 @@ body {
 
 .navbar-light .navbar-brand {
   color: white;
-  font-weight: bold;
 }
 
 .navbar {
@@ -21,11 +19,6 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
   color: #777777;
-}
-
-.navbar-light .navbar-nav .nav-link.active {
-  color: #777777;
-  font-weight: bold;
 }
 
 .nav-item .nav-link {
@@ -39,18 +32,17 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.navbar-nav > a:nth-child(2) {
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-}
-
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
 }
 
-.container-fluid > div:nth-child(1) {
-  border-bottom: 2px solid #cccccc;
+.border-3 {
+  border-width: 3px !important;
+}
+
+.border-5 {
+  border-width: 5px !important;
 }
 
 #main-content {
@@ -64,11 +56,8 @@ body {
 
 #title {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #4aaaa5;
   font-size: 2rem;
   padding: 1rem;
-  font-weight: bold;
-  border-bottom: 2px solid #cccccc;
 }
 
 #content-col {
@@ -90,9 +79,6 @@ p {
 }
 
 .my-footer.fixed-bottom > div {
-  background-color: #666666;
   color: white;
-  border-top: 5px solid #4aaaa5;
   text-align: center;
-  vertical-align: baseline;
 }
