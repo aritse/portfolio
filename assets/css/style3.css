@@ -1,0 +1,22 @@
+.my-container {
+  border: 1px solid red;
+}
+
+.my-row {
+  border: 1px solid green;
+}
+
+.my-col {
+  border: 1px solid blue;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  #my-name {
+    text-align: left;
+  }
+
+  #my-nav {
+    text-align: right;
+  }
+}
