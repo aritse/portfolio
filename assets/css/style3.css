@@ -5,8 +5,8 @@ body {
 
 #my-name-span {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
   margin-right: 0;
+  font-size: 2rem;
 }
 
 #my-name {
@@ -34,7 +34,8 @@ body {
 }
 
 .jumbotron {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  margin-top: 3rem;
   overflow: auto;
 }
 
@@ -44,8 +45,7 @@ body {
 
 .my-title {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 2rem;
   text-align: left;
 }
 
