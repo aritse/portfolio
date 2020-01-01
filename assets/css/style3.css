@@ -3,19 +3,6 @@ body {
   color: #777777;
 }
 
-.my-container {
-  border: 1px solid red;
-}
-
-.my-row {
-  border: 1px solid green;
-}
-
-.my-col {
-  border: 1px solid blue;
-  text-align: center;
-}
-
 #my-name-span {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -42,8 +29,8 @@ body {
 }
 
 #my-nav > nav > a:nth-child(2) {
-  border-left: 1px solid #777777;
-  border-right: 1px solid #777777;
+  border-left: 1px solid #d1d1d1;
+  border-right: 1px solid #d1d1d1;
 }
 
 .jumbotron {
@@ -72,9 +59,25 @@ p {
   line-height: 2rem;
 }
 
+.footer {
+  padding-top: 1rem;
+  text-align: center;
+  border-top: 8px solid #17a2b8;
+}
+
+#my-header,
+hr {
+  border-bottom: 2px solid #cccccc;
+}
+
 /* Apply these when browser's width is 768px or less. */
 @media screen and (max-width: 768px) {
   #my-nav > nav {
     justify-content: center !important;
+  }
+
+  #my-body > div.my-col.col-md-10.col-lg-8.col-xl-6.padding-0 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
