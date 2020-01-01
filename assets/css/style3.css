@@ -48,10 +48,28 @@ body {
 
 .jumbotron {
   margin-top: 1rem;
+  overflow: auto;
 }
 
 #my-body {
   background-image: url(../images/wall.png);
+}
+
+.my-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+#my-photo {
+  max-width: 25%;
+  margin-right: 1rem;
+}
+
+p {
+  text-align: left;
+  line-height: 2rem;
 }
 
 /* Apply these when browser's width is 768px or less. */
