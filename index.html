@@ -6,40 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="my-container container-fluid padding-0">
-        <div class="my-row row" id="my-header">
-            <div class="my-col col-md-1 col-lg-2 col-xl-3">
+
+    <div class="container-fluid">
+        <div class="row" id="my-header">
+            <div class="col-md-1 col-lg-2 col-xl-3"></div>
+            <div class="col-md-5 col-lg-4 col-xl-3 bg-info text-white text-center">
+                <header>
+                    <h1 class="font-weight-bold">Ari Tserendavaa</h1>
+                </header>
             </div>
-            <div class="my-col col-md-5 col-lg-4 col-xl-3" id="my-name">
-                <nav class="navbar navbar-light bg-info justify-content-center padding-0">
-                    <span class="navbar-brand mb-0 h1 text-white font-weight-bold" id="my-name-span">Ari Tserendavaa</span>
-                </nav>
+            <div class="col-md-5 col-lg-4 col-xl-3 text-secondary text-right align-self-center" id="nav">
+                <div class="nav justify-content-end">
+                    <nav class="nav">
+                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </nav>
+                </div>
             </div>
-            <div class="my-col col-md-5 col-lg-4 col-xl-3 align-self-center" id="my-nav">
-                <nav class="nav justify-content-end">
-                    <a class="nav-link active" href="#">About</a>
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </nav>
-            </div>
-            <div class="my-col col-md-1 col-lg-2 col-xl-3">
-            </div>
+            <div class="col-md-1 col-lg-2 col-xl-3"></div>
         </div>
-        <div class="my-row row bg-light" id="my-body">
-            <div class="my-col col-md-1 col-lg-2 col-xl-3">
-            </div>
-            <div class="my-col col-md-10 col-lg-8 col-xl-6 padding-0">
+        <div class="row" id="my-body">
+            <div class="col-md-1 col-lg-2 col-xl-3"></div>
+            <div class="col-md-10 col-lg-8 col-xl-6 text-secondary" id="content">
                 <div class="jumbotron bg-white">
-                    <h1 class="my-title text-info font-weight-bold">About Me</h1>
+                    <h1 class="text-info font-weight-bold">About Me</h1>
                     <hr>
-                    <img src="assets/images/wolf.jpg" alt="my photo" class="rounded float-left img-thumbnail" id="my-photo">
+                    <img src="assets/images/ari.jpg" alt="my photo" class="rounded float-left img-thumbnail" id="my-photo">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
                         since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
                         five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
@@ -52,18 +51,14 @@
                         sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                 </div>
             </div>
-            <div class="my-col col-md-1 col-lg-2 col-xl-3">
-            </div>
+            <div class="col-md-1 col-lg-2 col-xl-3"></div>
         </div>
-        <div class="my-row row" id="my-footer">
-            <div class="my-col col bg-secondary text-white padding-0">
-                <div class="footer">
-                    Copyright &copy;
-                </div>
+        <div class="row" id="my-footer">
+            <div class="col-md-12 col-lg-12 col-xl-12 bg-secondary text-white text-center fixed-bottom">
+                <footer>Copyright &copy;</footer>
             </div>
         </div>
     </div>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
