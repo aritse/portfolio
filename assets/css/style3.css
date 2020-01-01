@@ -46,6 +46,14 @@ body {
   border-right: 1px solid #777777;
 }
 
+.jumbotron {
+  margin-top: 1rem;
+}
+
+#my-body {
+  background-image: url(../images/wall.png);
+}
+
 /* Apply these when browser's width is 768px or less. */
 @media screen and (max-width: 768px) {
   #my-nav > nav {
