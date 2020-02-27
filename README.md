@@ -10,9 +10,8 @@
 6. Style one grid at a time. Use media queries if necessary.
 7. Apply the style to other pages.
 
-Note: After each step, it is important to commit changes.
+Note: After each step, it is important to commit changes. The deployed the site is [here](https://aritse.github.io/responsive-portfolio/).
 
-![About Me](assets\images\about.png)
-![Portfolio](assets\images\portfolio.png)
-![Contact](assets\images\contact.png)
-
+![1](https://github.com/aritse/responsive-portfolio/blob/master/assets/images/about.PNG)
+![2](https://github.com/aritse/responsive-portfolio/blob/master/assets/images/portfolio.PNG)
+![3](https://github.com/aritse/responsive-portfolio/blob/master/assets/images/contact.PNG)
